@@ -9,6 +9,9 @@ import serial
 # Configure the serial port
 ser = serial.Serial('/dev/ttyACM0')  # Replace 'COM3' with the appropriate port
 
+"""
+    Main loop to read data from the serial port and print it.
+"""
 while True:
     # Read data from the serial port
     data = ser.readline().decode('utf-8').strip()
