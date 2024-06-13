@@ -3,6 +3,7 @@ import RPi.GPIO as GPIO
 from time import sleep
 GPIO.setmode(GPIO.BOARD)
 
+#Define class
 class Servo:
     def __init__(self, pin, data_rate):
         self.pin = pin
