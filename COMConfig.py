@@ -11,7 +11,6 @@ while True:
     data = ser.readline().decode('utf-8').strip()
     print(data)    # Check if data was received
     
-    
     if data:
         # Split the data into x and y values
         x, y = data.split(',')
