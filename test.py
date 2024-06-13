@@ -1,22 +1,23 @@
 #test.py
-#Control the angle of a 
-#Servo Motor with Raspberry Pi
+#Control the angle of a Servo Motor with Raspberry Pi
 
-#initialising components
+#initialising components/imports from other files
 import RPi.GPIO as GPIO
 from time import sleep
 from servo import Servo
 from PiPico import Pico
-# from COMConfig import data
+
 
 GPIO.setmode(GPIO.BOARD)
-#number A is referencing what pins each servo is connected to whereas number Hz
+
+#Number A is referencing what pins each servo is connected to whereas number Hz
 Servo_A = Servo(11, 50)
 Servo_B = Servo(16, 50)
 count = 0
 numLoops = 2
 
 Serial = Pico('/dev/ttyACM0')
+
 #Determining which servo does which angle
 while True:
     Pivot_x, Pivot_y = Pico.data(Serial)
@@ -31,7 +32,6 @@ while True:
 #     print("set to 0-deg")
 #     Servo.setAngle(Servo_A, 0)
 #     sleep(1)
-
         
 #     print("set to 90-deg")
 #     Servo.setAngle(Servo_A, 90)
@@ -43,7 +43,6 @@ while True:
 #     print("set to 0-deg")
 #     Servo.setAngle(Servo_B, 0)
 #     sleep(1)
-
         
 #     print("set to 90-deg")
 #     Servo.setAngle(Servo_B, 90)
