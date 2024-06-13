@@ -1,3 +1,6 @@
+"""
+Script to control the angle of a servo motor with Raspberry Pi.
+"""
 #test.py
 #Control the angle of a Servo Motor with Raspberry Pi
 
