@@ -23,6 +23,7 @@ class Servo:
     set_angle(angle)
         Sets the angle of the servo motor.
 """
+
     def __init__(self, pin, data_rate):
 """
         Constructs all the necessary attributes for the servo object.
