@@ -1,7 +1,6 @@
 #servo.py
 import RPi.GPIO as GPIO
 from time import sleep
-# import COMConfig import data
 GPIO.setmode(GPIO.BOARD)
 
 class Servo:
