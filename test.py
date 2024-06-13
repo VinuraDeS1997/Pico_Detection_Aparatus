@@ -1,4 +1,4 @@
-[test.py]
+#test.py
 #Control the angle of a 
 #Servo Motor with Raspberry Pi
 
