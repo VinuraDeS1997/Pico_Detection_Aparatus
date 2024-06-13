@@ -1,5 +1,6 @@
 [COMConfig]
 # Windows PC (Python)
+#Import functions from the python file of which you're trying to transfer the data from
 import serial
 
 # Configure the serial port
