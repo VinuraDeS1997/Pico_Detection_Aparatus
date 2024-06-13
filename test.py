@@ -4,7 +4,7 @@ Script to control the angle of a servo motor with Raspberry Pi.
 #test.py
 #Control the angle of a Servo Motor with Raspberry Pi.
 
-#initialising components/imports from other files
+#initialising imports from other files.
 import RPi.GPIO as GPIO
 from time import sleep
 from servo import Servo
