@@ -1,4 +1,4 @@
-[PiPico.py]
+#PiPico.py
 #Import functions from what file you're trying to read the data for the pyserial from the serial port
 import serial
 #Define class
