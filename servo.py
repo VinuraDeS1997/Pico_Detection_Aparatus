@@ -11,6 +11,7 @@ class Servo:
         GPIO.setup(self.pin, GPIO.OUT)
         self.pwm = GPIO.PWM(self.pin, self.data_rate)
         self.pwm.start(0)
+        
     #Sets the angle of servo
     def setAngle(self, angle):
         duty = angle / 18 + 2
