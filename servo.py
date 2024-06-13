@@ -42,8 +42,8 @@ class Servo:
         self.pwm = GPIO.PWM(self.pin, self.data_rate)
         self.pwm.start(0)
         
-    #Sets the angle of servo.
-    def setAngle(self, angle):
+    
+    def setAngle(self, angle): #Sets the angle of servo.
 """
         Sets the angle of the servo motor.
 
