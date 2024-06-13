@@ -1,3 +1,6 @@
+"""
+Module for configuring and reading data from a serial port.
+"""
 #COMConfig.py
 # Windows PC (Python)
 #Import functions from the python file of which you're trying to transfer the data from
